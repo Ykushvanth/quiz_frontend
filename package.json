@@ -35,6 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://quiz-backend-1-vser.onrender.com"
+  }
 }

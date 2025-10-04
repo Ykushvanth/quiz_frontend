@@ -16,7 +16,6 @@
   border: 1px solid rgba(59,130,246,0.18);
   border-radius: 16px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.45);
-  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding: 32px;
 }
@@ -184,7 +183,7 @@
   padding: 12px 24px;
   border-radius: 10px;
   cursor: pointer;
-  transition: transform 120ms ease, background 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+  transition: transform 120ms ease, background 140ms ease, box-shadow 140ms ease;
   box-shadow: 0 6px 18px rgba(0,0,0,0.25);
   font-weight: 500;
 }
@@ -216,47 +215,17 @@
 }
 
 @media (max-width: 768px) {
-  .qs-container {
-    padding: 20px;
-  }
-  
-  .qs-score-summary {
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .qs-stats {
-    gap: 16px;
-  }
-  
-  .qs-actions {
-    flex-direction: column;
-  }
-  
-  .qs-btn {
-    width: 100%;
-  }
+  .qs-container { padding: 20px; }
+  .qs-score-summary { flex-direction: column; gap: 20px; }
+  .qs-stats { gap: 16px; }
+  .qs-actions { flex-direction: column; }
+  .qs-btn { width: 100%; }
 }
 
 @media (max-width: 520px) {
-  .qs-container {
-    padding: 16px;
-  }
-  
-  .qs-score-circle {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .qs-score-number {
-    font-size: 24px;
-  }
-  
-  .qs-stats {
-    gap: 12px;
-  }
-  
-  .qs-stat-number {
-    font-size: 20px;
-  }
+  .qs-container { padding: 16px; }
+  .qs-score-circle { width: 100px; height: 100px; }
+  .qs-score-number { font-size: 24px; }
+  .qs-stats { gap: 12px; }
+  .qs-stat-number { font-size: 20px; }
 }
